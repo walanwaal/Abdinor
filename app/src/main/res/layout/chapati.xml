@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dd.fragmentexample.chapatiFragment">
+
+
+
+    !--TextView and Button displayed in First Fragment -->
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imagechapati"
+        android:src="@drawable/chapati"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Calories 315.8. Total Fat 6.6 g. Saturated Fat 0.0 g. Polyunsaturated Fat 0.0 g. Monounsaturated Fat 0.0 g. Cholesterol 52.6 mg. Sodium 289.5 mg. Potassium 0.0 mg."
+        android:id="@+id/chapatitext"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/imagechapati"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true" />
+</RelativeLayout>
